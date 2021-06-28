@@ -1,7 +1,6 @@
+import PropTypes from 'prop-types';
 import { User } from "./User"
 import css from './Profile.module.css'
-
-console.log(User)
 
 export const Profile = ({ user })=> {
     return (<div className={css.profile}>< User
@@ -14,4 +13,8 @@ export const Profile = ({ user })=> {
     likes={user.stats.likes}
       />    
     </div>)
+}
+
+Profile.propTypes = {
+  user:  PropTypes.object.isRequired
 }
