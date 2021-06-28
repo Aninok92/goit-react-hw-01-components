@@ -1,8 +1,9 @@
 .transactionHistory {
-  margin-top: 20px;
+  margin-top: 30px;
+  margin: auto;
   border-collapse: collapse;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  min-width: 1000px;
+  width: 700px;
 }
 .thead {
   background-color: #849aa5;
