@@ -1,0 +1,14 @@
+.item {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.label {
+  color: var(--color-primary-text);
+}
+
+.percentage {
+  color: var(--color-red);
+  margin-top: 5px;
+}
