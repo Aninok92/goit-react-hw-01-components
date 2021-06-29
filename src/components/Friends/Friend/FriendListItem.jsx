@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import { FaCircle } from 'react-icons/fa';
-import css from './Friend.module.css'
+import css from './FriendListItem.module.css'
 
-export const Friend = ({ avatar, name, isOnline}) => {
+export const FriendListItem = ({avatar, name, isOnline}) => {
     return (
         <li className={css.item}>
             <FaCircle className={`${css.icon} ${css[isOnline]}`} size="20"/>
@@ -12,9 +12,8 @@ export const Friend = ({ avatar, name, isOnline}) => {
     )
 }
 
-Friend.propTypes = {
+FriendListItem.propTypes = {
     avatar: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     isOnline: PropTypes.bool.isRequired
-
 }
