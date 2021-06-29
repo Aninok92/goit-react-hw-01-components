@@ -1,4 +1,4 @@
- import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import { Friend } from "../Friend/Friend"
 import css from "./FriendList.module.css"
 
@@ -19,7 +19,7 @@ export const FriendList = ({ friends }) => {
 }
 
 FriendList.propTypes = {
-  friends:  PropTypes.arrayOf(
+  friends: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,
     }),

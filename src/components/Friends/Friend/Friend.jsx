@@ -7,8 +7,8 @@ export const Friend = ({ avatar, name, isOnline}) => {
         <li className={css.item}>
             <FaCircle className={`${css.icon} ${css[isOnline]}`} size="20"/>
             <img className={css.avatar} src={avatar} alt={name} size="48" />
-            <p className={css.name}>{name }</p>
-</li>
+            <p className={css.name}>{name}</p>
+        </li>
     )
 }
 
